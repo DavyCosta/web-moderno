@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "axios": "^0.26.0",
+    "lodash": "^4.17.21"
+  },
+  "name": "web-moderno",
+  "version": "1.0.0",
+  "main": "funcionarios.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavyCosta/web-moderno.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavyCosta/web-moderno/issues"
+  },
+  "homepage": "https://github.com/DavyCosta/web-moderno#readme",
+  "description": ""
+}
