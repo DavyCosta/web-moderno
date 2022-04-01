@@ -6,6 +6,18 @@
     <title>Desafio Menu</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <style>
+
+
+/* Para visualizar o sistema de Flex container pelo github*/
+/* github.com/cod3rcursos/youtube */
+
+/*
+para instalar projeto
+npm 
+npm run servei
+*/
+
+
         body {
             margin: 0;
             font-family: 'Oswald', sans-serif;
@@ -54,6 +66,24 @@
         /* ==================== */
         /* Solução com Flex Box */
         /* ==================== */
+
+        .cabecalho {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .menu {
+            flex-grow: 10;
+        }
+
+        .menu ul {
+            display: flex;
+        }
+
+        .menu li {
+            margin: 0px 10px;
+        }
     </style>
 </head>
 
